@@ -1,0 +1,574 @@
+1753769000078|13|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|SELECT @@character_set_database, @@sql_mode|SELECT @@character_set_database, @@sql_mode
+1753769002797|35|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|alter table member modify column status enum ('ACTIVE','DEACTIVATED','PENDING') not null|alter table member modify column status enum ('ACTIVE','DEACTIVATED','PENDING') not null
+1753769002857|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`author` where 1=0|select * from `hexstudy`.`author` where 1=0
+1753769002877|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`member_detail` where 1=0|select * from `hexstudy`.`member_detail` where 1=0
+1753769002891|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`address` where 1=0|select * from `hexstudy`.`address` where 1=0
+1753769002902|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`course` where 1=0|select * from `hexstudy`.`course` where 1=0
+1753769002908|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`student` where 1=0|select * from `hexstudy`.`student` where 1=0
+1753769007072|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769007259|6|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:27.204+0900')
+1753769007280|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (21,'kimgeun@naver.com','kimgeun','$2a$10$wSP8o8l5R/StX3nEBWlbv.NrGZF3CM33S9hhTr9ROTcvUYItiNMWa','PENDING')
+1753769007465|4|rollback|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769007485|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769007593|3|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:27.587+0900')
+1753769007597|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (22,'kimgeun@naver.com','kimgeun','$2a$10$/qy6pIOrWGS3bNDjfakEQePWZ0dc.WnQoSFn3h0nNF77WSRTEEW4G','PENDING')
+1753769007614|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769007667|3|rollback|connection 0|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769010905|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|SELECT @@character_set_database, @@sql_mode|SELECT @@character_set_database, @@sql_mode
+1753769011267|29|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|alter table member modify column status enum ('ACTIVE','DEACTIVATED','PENDING') not null|alter table member modify column status enum ('ACTIVE','DEACTIVATED','PENDING') not null
+1753769011299|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`author` where 1=0|select * from `hexstudy`.`author` where 1=0
+1753769011313|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`member_detail` where 1=0|select * from `hexstudy`.`member_detail` where 1=0
+1753769011327|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`address` where 1=0|select * from `hexstudy`.`address` where 1=0
+1753769011344|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`course` where 1=0|select * from `hexstudy`.`course` where 1=0
+1753769011355|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select * from `hexstudy`.`student` where 1=0|select * from `hexstudy`.`student` where 1=0
+1753769011988|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=999
+1753769012000|2|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012029|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012037|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.030+0900')
+1753769012041|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (23,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012049|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=23
+1753769012102|5|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012139|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012147|4|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.140+0900')
+1753769012152|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (24,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012159|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=24
+1753769012164|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=24
+1753769012192|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=24,nickname='kimgeun',password_hash='12345678',status='ACTIVE' where id=24
+1753769012200|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.168+0900',deactivated_at=NULL,introduction=NULL,profile_address=NULL,registered_at='2025-07-29T15:03:32.140+0900' where id=24
+1753769012206|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=24
+1753769012211|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=24
+1753769012229|4|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012254|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012261|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.255+0900')
+1753769012267|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (25,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012274|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=25
+1753769012279|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=25
+1753769012297|13|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=25,nickname='kimgeun',password_hash='12345678',status='ACTIVE' where id=25
+1753769012318|19|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.280+0900',deactivated_at=NULL,introduction=NULL,profile_address=NULL,registered_at='2025-07-29T15:03:32.255+0900' where id=25
+1753769012330|5|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012355|4|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012363|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.356+0900')
+1753769012369|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (26,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012379|4|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012400|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012407|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.401+0900')
+1753769012412|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (27,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012422|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012431|3|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012454|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012462|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.455+0900')
+1753769012467|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (28,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012474|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=28
+1753769012478|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=28
+1753769012487|4|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=28,nickname='kimgeun',password_hash='12345678',status='ACTIVE' where id=28
+1753769012493|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.479+0900',deactivated_at=NULL,introduction=NULL,profile_address=NULL,registered_at='2025-07-29T15:03:32.455+0900' where id=28
+1753769012509|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=28
+1753769012515|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=28
+1753769012535|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address='toby100'
+1753769012548|6|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012580|2|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753769012600|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='kimgeun@naver.com'
+1753769012606|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.600+0900')
+1753769012610|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (29,'kimgeun@naver.com','kimgeun','12345678','PENDING')
+1753769012617|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=29
+1753769012621|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=29
+1753769012632|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=29,nickname='kimgeun',password_hash='12345678',status='ACTIVE' where id=29
+1753769012638|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.622+0900',deactivated_at=NULL,introduction=NULL,profile_address=NULL,registered_at='2025-07-29T15:03:32.600+0900' where id=29
+1753769012641|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address='toby100'
+1753769012649|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=29,nickname='Peter',password_hash='12345678',status='ACTIVE' where id=29
+1753769012654|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.622+0900',deactivated_at=NULL,introduction='자기소개',profile_address='toby100',registered_at='2025-07-29T15:03:32.600+0900' where id=29
+1753769012659|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.email_address='toby2@splearn.app'
+1753769012664|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (?,?,?,?,?)|insert into member_detail (activated_at,deactivated_at,introduction,profile_address,registered_at) values (NULL,NULL,NULL,NULL,'2025-07-29T15:03:32.659+0900')
+1753769012668|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|insert into member (detail_id,email_address,nickname,password_hash,status) values (?,?,?,?,?)|insert into member (detail_id,email_address,nickname,password_hash,status) values (30,'toby2@splearn.app','kimgeun','12345678','PENDING')
+1753769012674|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=30
+1753769012679|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=30
+1753769012684|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=30,nickname='kimgeun',password_hash='12345678',status='ACTIVE' where id=30
+1753769012689|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.679+0900',deactivated_at=NULL,introduction=NULL,profile_address=NULL,registered_at='2025-07-29T15:03:32.659+0900' where id=30
+1753769012694|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 where m1_0.id=30
+1753769012698|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=30
+1753769012704|3|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address='toby100'
+1753769012711|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address='toby101'
+1753769012717|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=?|select md1_0.id,md1_0.activated_at,md1_0.deactivated_at,md1_0.introduction,md1_0.profile_address,md1_0.registered_at from member_detail md1_0 where md1_0.id=29
+1753769012726|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=30,nickname='James',password_hash='12345678',status='ACTIVE' where id=30
+1753769012730|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.679+0900',deactivated_at=NULL,introduction='Introduction',profile_address='toby101',registered_at='2025-07-29T15:03:32.659+0900' where id=30
+1753769012734|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member set detail_id=?,nickname=?,password_hash=?,status=? where id=?|update member set detail_id=29,nickname='James',password_hash='12345678',status='ACTIVE' where id=29
+1753769012738|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|update member_detail set activated_at=?,deactivated_at=?,introduction=?,profile_address=?,registered_at=? where id=?|update member_detail set activated_at='2025-07-29T15:03:32.622+0900',deactivated_at=NULL,introduction='Introduction',profile_address='',registered_at='2025-07-29T15:03:32.600+0900' where id=29
+1753769012741|2|statement|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address=?|select m1_0.id,m1_0.detail_id,m1_0.email_address,m1_0.nickname,m1_0.password_hash,m1_0.status from member m1_0 join member_detail d1_0 on d1_0.id=m1_0.detail_id where d1_0.profile_address='toby101'
+1753769012748|3|rollback|connection 10|url jdbc:p6spy:mysql://localhost:3307/hexstudy||
+1753771558299|1|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists address cascade |drop table if exists address cascade 
+1753771558305|1|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists author cascade |drop table if exists author cascade 
+1753771558306|0|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists book cascade |drop table if exists book cascade 
+1753771558307|0|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists course cascade |drop table if exists course cascade 
+1753771558308|1|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists member cascade |drop table if exists member cascade 
+1753771558309|0|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753771558310|1|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753771558311|0|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists student cascade |drop table if exists student cascade 
+1753771558311|0|statement|connection 29|url jdbc:h2:mem:ee1c6068-e9b7-48c2-b35d-8bca2fd71678|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753771558318|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists address cascade |drop table if exists address cascade 
+1753771558321|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists author cascade |drop table if exists author cascade 
+1753771558322|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists book cascade |drop table if exists book cascade 
+1753771558322|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists course cascade |drop table if exists course cascade 
+1753771558323|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists member cascade |drop table if exists member cascade 
+1753771558325|1|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753771558326|1|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753771558327|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists student cascade |drop table if exists student cascade 
+1753771558328|0|statement|connection 30|url jdbc:h2:mem:3147b0a4-1d77-4c08-b83e-28367ca014c6|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753772361738|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists address cascade |drop table if exists address cascade 
+1753772361744|2|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists author cascade |drop table if exists author cascade 
+1753772361745|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists book cascade |drop table if exists book cascade 
+1753772361746|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists course cascade |drop table if exists course cascade 
+1753772361747|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists member cascade |drop table if exists member cascade 
+1753772361747|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753772361748|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753772361749|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists student cascade |drop table if exists student cascade 
+1753772361749|0|statement|connection 33|url jdbc:h2:mem:a9351b35-d11d-4874-bda7-5708441a66bf|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753772361761|4|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists address cascade |drop table if exists address cascade 
+1753772361764|0|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists author cascade |drop table if exists author cascade 
+1753772361765|0|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists book cascade |drop table if exists book cascade 
+1753772361769|3|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists course cascade |drop table if exists course cascade 
+1753772361770|1|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists member cascade |drop table if exists member cascade 
+1753772361771|0|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753772361773|0|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753772361774|1|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists student cascade |drop table if exists student cascade 
+1753772361775|0|statement|connection 34|url jdbc:h2:mem:99da78e3-718a-40dc-a743-0de8fcc15e6e|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753772361783|0|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists address cascade |drop table if exists address cascade 
+1753772361786|0|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists author cascade |drop table if exists author cascade 
+1753772361787|0|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists book cascade |drop table if exists book cascade 
+1753772361788|1|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists course cascade |drop table if exists course cascade 
+1753772361790|1|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists member cascade |drop table if exists member cascade 
+1753772361792|1|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753772361794|1|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753772361794|0|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists student cascade |drop table if exists student cascade 
+1753772361795|0|statement|connection 35|url jdbc:h2:mem:0e5ae0f2-dea8-47c7-a4dd-3ec708a51044|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753773538461|1|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists address cascade |drop table if exists address cascade 
+1753773538469|1|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists author cascade |drop table if exists author cascade 
+1753773538471|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists book cascade |drop table if exists book cascade 
+1753773538472|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists course cascade |drop table if exists course cascade 
+1753773538473|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists member cascade |drop table if exists member cascade 
+1753773538474|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753773538475|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753773538476|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists student cascade |drop table if exists student cascade 
+1753773538477|0|statement|connection 33|url jdbc:h2:mem:f44b4af5-0113-48a6-aaeb-30c46b80221e|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753773538491|1|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists address cascade |drop table if exists address cascade 
+1753773538495|1|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists author cascade |drop table if exists author cascade 
+1753773538496|0|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists book cascade |drop table if exists book cascade 
+1753773538498|1|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists course cascade |drop table if exists course cascade 
+1753773538500|1|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists member cascade |drop table if exists member cascade 
+1753773538501|1|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753773538503|0|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753773538504|0|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists student cascade |drop table if exists student cascade 
+1753773538504|0|statement|connection 34|url jdbc:h2:mem:affcf7f4-342b-4085-b79f-b0fb1701382f|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753773538514|1|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists address cascade |drop table if exists address cascade 
+1753773538518|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists author cascade |drop table if exists author cascade 
+1753773538519|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists book cascade |drop table if exists book cascade 
+1753773538520|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists course cascade |drop table if exists course cascade 
+1753773538521|1|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists member cascade |drop table if exists member cascade 
+1753773538523|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753773538524|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753773538525|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists student cascade |drop table if exists student cascade 
+1753773538526|0|statement|connection 35|url jdbc:h2:mem:3a05acb2-80c5-4ae9-8768-4cd6c5cade62|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776518095|1|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists address cascade |drop table if exists address cascade 
+1753776518101|1|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists author cascade |drop table if exists author cascade 
+1753776518102|0|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists book cascade |drop table if exists book cascade 
+1753776518103|1|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists course cascade |drop table if exists course cascade 
+1753776518105|1|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists member cascade |drop table if exists member cascade 
+1753776518106|1|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776518108|0|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776518109|0|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists student cascade |drop table if exists student cascade 
+1753776518110|0|statement|connection 33|url jdbc:h2:mem:5ab550f9-6b83-41b2-ac58-48f4ef551f15|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776518129|0|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists address cascade |drop table if exists address cascade 
+1753776518134|1|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists author cascade |drop table if exists author cascade 
+1753776518136|1|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists book cascade |drop table if exists book cascade 
+1753776518137|1|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists course cascade |drop table if exists course cascade 
+1753776518140|1|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists member cascade |drop table if exists member cascade 
+1753776518144|3|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776518147|1|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776518149|0|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists student cascade |drop table if exists student cascade 
+1753776518150|0|statement|connection 34|url jdbc:h2:mem:6f4fa5fb-cee2-44cf-a61f-5fae2d3d562c|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776518158|0|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists address cascade |drop table if exists address cascade 
+1753776518162|1|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists author cascade |drop table if exists author cascade 
+1753776518164|1|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists book cascade |drop table if exists book cascade 
+1753776518166|1|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists course cascade |drop table if exists course cascade 
+1753776518167|1|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists member cascade |drop table if exists member cascade 
+1753776518168|0|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776518169|0|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776518171|0|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists student cascade |drop table if exists student cascade 
+1753776518171|0|statement|connection 35|url jdbc:h2:mem:dce440c5-f684-435c-85c3-8f72a0f8af60|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776597990|2|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists address cascade |drop table if exists address cascade 
+1753776598009|5|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists author cascade |drop table if exists author cascade 
+1753776598011|1|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists book cascade |drop table if exists book cascade 
+1753776598013|1|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists course cascade |drop table if exists course cascade 
+1753776598018|4|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists member cascade |drop table if exists member cascade 
+1753776598022|3|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776598025|2|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776598028|1|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists student cascade |drop table if exists student cascade 
+1753776598029|0|statement|connection 33|url jdbc:h2:mem:7cc2ff5e-8fe1-41b4-b5d3-37af58687012|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776598055|1|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists address cascade |drop table if exists address cascade 
+1753776598061|1|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists author cascade |drop table if exists author cascade 
+1753776598063|1|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists book cascade |drop table if exists book cascade 
+1753776598068|3|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists course cascade |drop table if exists course cascade 
+1753776598070|2|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists member cascade |drop table if exists member cascade 
+1753776598074|3|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776598078|1|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776598079|1|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists student cascade |drop table if exists student cascade 
+1753776598083|2|statement|connection 34|url jdbc:h2:mem:7cc20eb3-d710-4f74-8d27-5e8b098f11df|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753776598100|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists address cascade |drop table if exists address cascade 
+1753776598105|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists author cascade |drop table if exists author cascade 
+1753776598109|3|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists book cascade |drop table if exists book cascade 
+1753776598111|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists course cascade |drop table if exists course cascade 
+1753776598115|3|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists member cascade |drop table if exists member cascade 
+1753776598117|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753776598119|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753776598120|1|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists student cascade |drop table if exists student cascade 
+1753776598121|0|statement|connection 35|url jdbc:h2:mem:ff8cd54b-9646-47c8-9afd-2d20742eb360|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753777760586|1|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists address cascade |drop table if exists address cascade 
+1753777760594|1|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists author cascade |drop table if exists author cascade 
+1753777760595|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists book cascade |drop table if exists book cascade 
+1753777760597|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists course cascade |drop table if exists course cascade 
+1753777760598|1|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists member cascade |drop table if exists member cascade 
+1753777760599|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753777760600|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753777760601|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists student cascade |drop table if exists student cascade 
+1753777760602|0|statement|connection 33|url jdbc:h2:mem:f0eb4c1f-8eed-4409-884e-71eafc663873|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753777760611|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists address cascade |drop table if exists address cascade 
+1753777760614|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists author cascade |drop table if exists author cascade 
+1753777760615|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists book cascade |drop table if exists book cascade 
+1753777760616|1|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists course cascade |drop table if exists course cascade 
+1753777760618|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists member cascade |drop table if exists member cascade 
+1753777760619|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753777760620|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753777760620|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists student cascade |drop table if exists student cascade 
+1753777760622|0|statement|connection 34|url jdbc:h2:mem:f95fbc0d-2e7a-4917-9184-2d94970b47cc|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753777760628|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists address cascade |drop table if exists address cascade 
+1753777760630|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists author cascade |drop table if exists author cascade 
+1753777760630|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists book cascade |drop table if exists book cascade 
+1753777760631|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists course cascade |drop table if exists course cascade 
+1753777760632|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists member cascade |drop table if exists member cascade 
+1753777760633|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753777760633|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753777760634|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists student cascade |drop table if exists student cascade 
+1753777760634|0|statement|connection 35|url jdbc:h2:mem:a5bd15a3-deca-48e5-9bdb-a259b0a666de|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778437601|1|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists address cascade |drop table if exists address cascade 
+1753778437607|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists author cascade |drop table if exists author cascade 
+1753778437607|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists book cascade |drop table if exists book cascade 
+1753778437608|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists course cascade |drop table if exists course cascade 
+1753778437609|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists member cascade |drop table if exists member cascade 
+1753778437610|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778437611|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778437612|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists student cascade |drop table if exists student cascade 
+1753778437612|0|statement|connection 33|url jdbc:h2:mem:2e254f5e-83b7-40a6-afeb-6462a2fd4f4c|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778437627|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists address cascade |drop table if exists address cascade 
+1753778437629|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists author cascade |drop table if exists author cascade 
+1753778437630|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists book cascade |drop table if exists book cascade 
+1753778437631|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists course cascade |drop table if exists course cascade 
+1753778437631|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists member cascade |drop table if exists member cascade 
+1753778437632|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778437633|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778437634|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists student cascade |drop table if exists student cascade 
+1753778437635|0|statement|connection 34|url jdbc:h2:mem:94d50fe2-bec8-45d3-b5c1-13f8434081cb|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778437642|0|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists address cascade |drop table if exists address cascade 
+1753778437644|1|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists author cascade |drop table if exists author cascade 
+1753778437646|0|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists book cascade |drop table if exists book cascade 
+1753778437647|1|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists course cascade |drop table if exists course cascade 
+1753778437649|1|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists member cascade |drop table if exists member cascade 
+1753778437650|0|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778437652|1|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778437655|2|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists student cascade |drop table if exists student cascade 
+1753778437656|0|statement|connection 35|url jdbc:h2:mem:7932ad01-ce6f-4b95-aa81-e1ab31681338|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778963837|1|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists address cascade |drop table if exists address cascade 
+1753778963857|2|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists author cascade |drop table if exists author cascade 
+1753778963860|2|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists book cascade |drop table if exists book cascade 
+1753778963862|1|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists course cascade |drop table if exists course cascade 
+1753778963869|5|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists member cascade |drop table if exists member cascade 
+1753778963872|2|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778963875|2|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778963880|3|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists student cascade |drop table if exists student cascade 
+1753778963881|0|statement|connection 33|url jdbc:h2:mem:df25dd8a-39eb-42c9-a67d-a5d6d921ac13|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778963912|3|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists address cascade |drop table if exists address cascade 
+1753778963927|2|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists author cascade |drop table if exists author cascade 
+1753778963931|2|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists book cascade |drop table if exists book cascade 
+1753778963937|3|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists course cascade |drop table if exists course cascade 
+1753778963940|2|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists member cascade |drop table if exists member cascade 
+1753778963942|1|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778963948|4|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778963953|3|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists student cascade |drop table if exists student cascade 
+1753778963956|1|statement|connection 34|url jdbc:h2:mem:1890a16c-a6bb-4f49-b7c0-426b00b852a3|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753778963970|1|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists address cascade |drop table if exists address cascade 
+1753778963977|2|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists author cascade |drop table if exists author cascade 
+1753778963978|0|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists book cascade |drop table if exists book cascade 
+1753778963980|2|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists course cascade |drop table if exists course cascade 
+1753778963985|4|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists member cascade |drop table if exists member cascade 
+1753778963987|1|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753778963988|1|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753778963990|1|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists student cascade |drop table if exists student cascade 
+1753778963991|0|statement|connection 35|url jdbc:h2:mem:9dabe18a-baf1-48d9-b0f1-c706bf77f109|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828129730|0|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists address cascade |drop table if exists address cascade 
+1753828129736|1|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists author cascade |drop table if exists author cascade 
+1753828129739|1|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists book cascade |drop table if exists book cascade 
+1753828129740|1|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists course cascade |drop table if exists course cascade 
+1753828129742|1|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists member cascade |drop table if exists member cascade 
+1753828129743|0|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828129744|0|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828129745|0|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists student cascade |drop table if exists student cascade 
+1753828129745|0|statement|connection 34|url jdbc:h2:mem:b55b4e7a-f8ea-4437-b6ac-94edf515d8f5|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828129757|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists address cascade |drop table if exists address cascade 
+1753828129760|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists author cascade |drop table if exists author cascade 
+1753828129761|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists book cascade |drop table if exists book cascade 
+1753828129762|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists course cascade |drop table if exists course cascade 
+1753828129763|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists member cascade |drop table if exists member cascade 
+1753828129764|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828129764|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828129765|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists student cascade |drop table if exists student cascade 
+1753828129765|0|statement|connection 35|url jdbc:h2:mem:f5e1e6b3-f7bd-435d-9197-f132164cd001|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828129770|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists address cascade |drop table if exists address cascade 
+1753828129773|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists author cascade |drop table if exists author cascade 
+1753828129773|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists book cascade |drop table if exists book cascade 
+1753828129774|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists course cascade |drop table if exists course cascade 
+1753828129775|1|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists member cascade |drop table if exists member cascade 
+1753828129776|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828129777|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828129777|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists student cascade |drop table if exists student cascade 
+1753828129778|0|statement|connection 36|url jdbc:h2:mem:7c8633b2-156b-44c6-be79-109cdcb47cef|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828208359|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists address cascade |drop table if exists address cascade 
+1753828208365|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists author cascade |drop table if exists author cascade 
+1753828208367|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists book cascade |drop table if exists book cascade 
+1753828208368|0|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists course cascade |drop table if exists course cascade 
+1753828208370|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists member cascade |drop table if exists member cascade 
+1753828208373|2|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828208375|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828208376|0|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists student cascade |drop table if exists student cascade 
+1753828208377|1|statement|connection 34|url jdbc:h2:mem:df990cd6-d4de-4b97-bf29-790591e279c0|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828208392|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists address cascade |drop table if exists address cascade 
+1753828208396|1|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists author cascade |drop table if exists author cascade 
+1753828208397|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists book cascade |drop table if exists book cascade 
+1753828208398|1|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists course cascade |drop table if exists course cascade 
+1753828208400|1|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists member cascade |drop table if exists member cascade 
+1753828208402|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828208403|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828208404|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists student cascade |drop table if exists student cascade 
+1753828208405|0|statement|connection 35|url jdbc:h2:mem:e9f58376-8f13-4562-adac-ba53fe73bf09|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753828208414|1|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists address cascade |drop table if exists address cascade 
+1753828208418|1|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists author cascade |drop table if exists author cascade 
+1753828208419|0|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists book cascade |drop table if exists book cascade 
+1753828208420|1|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists course cascade |drop table if exists course cascade 
+1753828208421|1|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists member cascade |drop table if exists member cascade 
+1753828208422|0|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753828208423|0|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753828208424|0|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists student cascade |drop table if exists student cascade 
+1753828208425|0|statement|connection 36|url jdbc:h2:mem:76f320dd-3753-41a8-8858-5b8ae0ceb07d|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753834990983|1|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists address cascade |drop table if exists address cascade 
+1753834990993|1|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists author cascade |drop table if exists author cascade 
+1753834990994|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists book cascade |drop table if exists book cascade 
+1753834990995|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists course cascade |drop table if exists course cascade 
+1753834990996|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists member cascade |drop table if exists member cascade 
+1753834990996|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753834990997|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753834990998|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists student cascade |drop table if exists student cascade 
+1753834990999|0|statement|connection 35|url jdbc:h2:mem:51f08895-f6da-47d2-b2b2-40742e695847|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753834991011|0|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists address cascade |drop table if exists address cascade 
+1753834991014|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists author cascade |drop table if exists author cascade 
+1753834991016|0|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists book cascade |drop table if exists book cascade 
+1753834991017|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists course cascade |drop table if exists course cascade 
+1753834991019|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists member cascade |drop table if exists member cascade 
+1753834991021|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753834991024|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753834991026|1|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists student cascade |drop table if exists student cascade 
+1753834991027|0|statement|connection 36|url jdbc:h2:mem:f7416061-4cab-48b7-9c1d-80c94c998422|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753834991039|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists address cascade |drop table if exists address cascade 
+1753834991045|2|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists author cascade |drop table if exists author cascade 
+1753834991047|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists book cascade |drop table if exists book cascade 
+1753834991049|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists course cascade |drop table if exists course cascade 
+1753834991051|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists member cascade |drop table if exists member cascade 
+1753834991056|4|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753834991058|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753834991059|1|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists student cascade |drop table if exists student cascade 
+1753834991061|0|statement|connection 37|url jdbc:h2:mem:4bee3828-8cd2-4742-bbf8-39cf90a01177|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753840260952|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists address cascade |drop table if exists address cascade 
+1753840260957|1|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists author cascade |drop table if exists author cascade 
+1753840260958|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists book cascade |drop table if exists book cascade 
+1753840260959|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists course cascade |drop table if exists course cascade 
+1753840260959|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists member cascade |drop table if exists member cascade 
+1753840260960|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753840260961|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753840260962|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists student cascade |drop table if exists student cascade 
+1753840260962|0|statement|connection 37|url jdbc:h2:mem:0b5c06fd-1dd1-4f91-8d6f-7094073c093e|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753840260974|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists address cascade |drop table if exists address cascade 
+1753840260977|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists author cascade |drop table if exists author cascade 
+1753840260978|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists book cascade |drop table if exists book cascade 
+1753840260979|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists course cascade |drop table if exists course cascade 
+1753840260980|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists member cascade |drop table if exists member cascade 
+1753840260981|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753840260983|1|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753840260985|1|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists student cascade |drop table if exists student cascade 
+1753840260986|0|statement|connection 38|url jdbc:h2:mem:13942a20-549c-4b0c-914e-eafd052281a8|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753840260993|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists address cascade |drop table if exists address cascade 
+1753840260995|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists author cascade |drop table if exists author cascade 
+1753840260996|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists book cascade |drop table if exists book cascade 
+1753840260996|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists course cascade |drop table if exists course cascade 
+1753840260997|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists member cascade |drop table if exists member cascade 
+1753840260998|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753840261000|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753840261001|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists student cascade |drop table if exists student cascade 
+1753840261001|0|statement|connection 39|url jdbc:h2:mem:c0004eed-2f04-441d-9c5b-46b30c7c1898|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843029210|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists address cascade |drop table if exists address cascade 
+1753843029218|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists author cascade |drop table if exists author cascade 
+1753843029219|0|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists book cascade |drop table if exists book cascade 
+1753843029220|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists course cascade |drop table if exists course cascade 
+1753843029222|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists member cascade |drop table if exists member cascade 
+1753843029223|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843029226|1|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843029226|0|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists student cascade |drop table if exists student cascade 
+1753843029227|0|statement|connection 40|url jdbc:h2:mem:e66d5049-eab9-44b2-a478-21d660591bd7|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843029240|1|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists address cascade |drop table if exists address cascade 
+1753843029243|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists author cascade |drop table if exists author cascade 
+1753843029244|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists book cascade |drop table if exists book cascade 
+1753843029246|1|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists course cascade |drop table if exists course cascade 
+1753843029248|1|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists member cascade |drop table if exists member cascade 
+1753843029249|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843029250|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843029251|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists student cascade |drop table if exists student cascade 
+1753843029252|0|statement|connection 41|url jdbc:h2:mem:0581989f-e441-4735-91ab-0b4798cd09a9|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843029263|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists address cascade |drop table if exists address cascade 
+1753843029266|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists author cascade |drop table if exists author cascade 
+1753843029267|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists book cascade |drop table if exists book cascade 
+1753843029268|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists course cascade |drop table if exists course cascade 
+1753843029269|1|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists member cascade |drop table if exists member cascade 
+1753843029270|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843029271|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843029272|0|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists student cascade |drop table if exists student cascade 
+1753843029274|1|statement|connection 42|url jdbc:h2:mem:dddbdc0b-7026-45cd-be05-f8700057c814|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843106295|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists address cascade |drop table if exists address cascade 
+1753843106300|1|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists author cascade |drop table if exists author cascade 
+1753843106300|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists book cascade |drop table if exists book cascade 
+1753843106300|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists course cascade |drop table if exists course cascade 
+1753843106302|1|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists member cascade |drop table if exists member cascade 
+1753843106304|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843106304|1|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843106306|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists student cascade |drop table if exists student cascade 
+1753843106306|0|statement|connection 39|url jdbc:h2:mem:794a54da-006a-427e-b1f2-aab2212db983|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843106323|1|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists address cascade |drop table if exists address cascade 
+1753843106327|1|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists author cascade |drop table if exists author cascade 
+1753843106329|0|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists book cascade |drop table if exists book cascade 
+1753843106330|0|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists course cascade |drop table if exists course cascade 
+1753843106333|2|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists member cascade |drop table if exists member cascade 
+1753843106335|1|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843106336|0|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843106337|0|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists student cascade |drop table if exists student cascade 
+1753843106337|0|statement|connection 40|url jdbc:h2:mem:e2680658-b22a-4709-acad-cc505c8b3614|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753843106354|0|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists address cascade |drop table if exists address cascade 
+1753843106357|1|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists author cascade |drop table if exists author cascade 
+1753843106358|1|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists book cascade |drop table if exists book cascade 
+1753843106360|1|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists course cascade |drop table if exists course cascade 
+1753843106363|1|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists member cascade |drop table if exists member cascade 
+1753843106363|0|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753843106367|2|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753843106367|0|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists student cascade |drop table if exists student cascade 
+1753843106368|0|statement|connection 41|url jdbc:h2:mem:ec2046a2-b801-42ca-9e51-afbb127e56df|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753845088856|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists address cascade |drop table if exists address cascade 
+1753845088862|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists author cascade |drop table if exists author cascade 
+1753845088863|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists book cascade |drop table if exists book cascade 
+1753845088864|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists course cascade |drop table if exists course cascade 
+1753845088865|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists member cascade |drop table if exists member cascade 
+1753845088865|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753845088866|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753845088867|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists student cascade |drop table if exists student cascade 
+1753845088867|0|statement|connection 40|url jdbc:h2:mem:37c028d0-1a4b-4c55-9266-607a69932ed1|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753845088874|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists address cascade |drop table if exists address cascade 
+1753845088876|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists author cascade |drop table if exists author cascade 
+1753845088876|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists book cascade |drop table if exists book cascade 
+1753845088877|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists course cascade |drop table if exists course cascade 
+1753845088877|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists member cascade |drop table if exists member cascade 
+1753845088878|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753845088878|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753845088879|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists student cascade |drop table if exists student cascade 
+1753845088880|0|statement|connection 41|url jdbc:h2:mem:0db29125-7ee9-4a6c-8211-7ff1255a659d|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753845088885|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists address cascade |drop table if exists address cascade 
+1753845088887|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists author cascade |drop table if exists author cascade 
+1753845088888|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists book cascade |drop table if exists book cascade 
+1753845088888|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists course cascade |drop table if exists course cascade 
+1753845088889|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists member cascade |drop table if exists member cascade 
+1753845088889|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753845088890|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753845088890|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists student cascade |drop table if exists student cascade 
+1753845088891|0|statement|connection 42|url jdbc:h2:mem:190602b2-ba16-48e6-95cf-fa847fdb3e4f|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753856087369|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists address cascade |drop table if exists address cascade 
+1753856087373|1|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists author cascade |drop table if exists author cascade 
+1753856087374|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists book cascade |drop table if exists book cascade 
+1753856087375|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists course cascade |drop table if exists course cascade 
+1753856087377|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists member cascade |drop table if exists member cascade 
+1753856087378|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753856087379|1|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753856087380|1|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists student cascade |drop table if exists student cascade 
+1753856087381|0|statement|connection 40|url jdbc:h2:mem:2f3680c2-ed68-4902-b55e-a47cd151d14e|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753856087409|1|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists address cascade |drop table if exists address cascade 
+1753856087411|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists author cascade |drop table if exists author cascade 
+1753856087412|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists book cascade |drop table if exists book cascade 
+1753856087413|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists course cascade |drop table if exists course cascade 
+1753856087414|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists member cascade |drop table if exists member cascade 
+1753856087415|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753856087415|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753856087416|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists student cascade |drop table if exists student cascade 
+1753856087417|0|statement|connection 41|url jdbc:h2:mem:0b6c0b77-d1ad-451b-938b-17a9e3fc4121|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753856087422|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists address cascade |drop table if exists address cascade 
+1753856087425|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists author cascade |drop table if exists author cascade 
+1753856087426|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists book cascade |drop table if exists book cascade 
+1753856087427|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists course cascade |drop table if exists course cascade 
+1753856087428|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists member cascade |drop table if exists member cascade 
+1753856087428|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753856087429|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753856087429|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists student cascade |drop table if exists student cascade 
+1753856087430|0|statement|connection 42|url jdbc:h2:mem:d87b6872-c007-4225-a565-8786b220f304|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753924158471|7|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists address cascade |drop table if exists address cascade 
+1753924158483|2|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists author cascade |drop table if exists author cascade 
+1753924158485|1|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists book cascade |drop table if exists book cascade 
+1753924158487|1|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists course cascade |drop table if exists course cascade 
+1753924158489|1|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists member cascade |drop table if exists member cascade 
+1753924158490|1|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753924158495|3|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753924158498|3|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists student cascade |drop table if exists student cascade 
+1753924158500|0|statement|connection 41|url jdbc:h2:mem:4df1392d-c46f-4a34-b5ed-e5ffb860be1d|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753924158530|3|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists address cascade |drop table if exists address cascade 
+1753924158539|4|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists author cascade |drop table if exists author cascade 
+1753924158540|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists book cascade |drop table if exists book cascade 
+1753924158542|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists course cascade |drop table if exists course cascade 
+1753924158544|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists member cascade |drop table if exists member cascade 
+1753924158546|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753924158548|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753924158549|1|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists student cascade |drop table if exists student cascade 
+1753924158551|0|statement|connection 42|url jdbc:h2:mem:5de9d0fc-270b-462d-8e55-ddda51378a64|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753924158574|3|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists address cascade |drop table if exists address cascade 
+1753924158577|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists author cascade |drop table if exists author cascade 
+1753924158578|0|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists book cascade |drop table if exists book cascade 
+1753924158580|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists course cascade |drop table if exists course cascade 
+1753924158582|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists member cascade |drop table if exists member cascade 
+1753924158584|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753924158588|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753924158590|1|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists student cascade |drop table if exists student cascade 
+1753924158591|0|statement|connection 43|url jdbc:h2:mem:b627bb7e-1bfb-42ab-a7a7-b0b6200cae90|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753934417933|1|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists address cascade |drop table if exists address cascade 
+1753934417952|5|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists author cascade |drop table if exists author cascade 
+1753934417954|1|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists book cascade |drop table if exists book cascade 
+1753934417957|2|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists course cascade |drop table if exists course cascade 
+1753934417959|1|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists member cascade |drop table if exists member cascade 
+1753934417962|2|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753934417963|1|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753934417965|1|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists student cascade |drop table if exists student cascade 
+1753934417967|0|statement|connection 45|url jdbc:h2:mem:be15cabf-7bfd-48ce-9af9-d8030bdcbcb4|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753934417997|1|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists address cascade |drop table if exists address cascade 
+1753934418002|1|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists author cascade |drop table if exists author cascade 
+1753934418037|34|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists book cascade |drop table if exists book cascade 
+1753934418040|2|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists course cascade |drop table if exists course cascade 
+1753934418043|1|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists member cascade |drop table if exists member cascade 
+1753934418046|2|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753934418047|0|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753934418049|1|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists student cascade |drop table if exists student cascade 
+1753934418052|2|statement|connection 46|url jdbc:h2:mem:33342d53-90ff-4e34-8758-5225e80ecc8f|drop table if exists student_course cascade |drop table if exists student_course cascade 
+1753934418077|3|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists address cascade |drop table if exists address cascade 
+1753934418082|1|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists author cascade |drop table if exists author cascade 
+1753934418084|0|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists book cascade |drop table if exists book cascade 
+1753934418119|1|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists course cascade |drop table if exists course cascade 
+1753934418121|1|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists member cascade |drop table if exists member cascade 
+1753934418122|1|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists member_ cascade |drop table if exists member_ cascade 
+1753934418124|1|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists member_detail cascade |drop table if exists member_detail cascade 
+1753934418130|4|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists student cascade |drop table if exists student cascade 
+1753934418131|0|statement|connection 47|url jdbc:h2:mem:d6167220-8398-43c8-8522-742535429e0c|drop table if exists student_course cascade |drop table if exists student_course cascade 

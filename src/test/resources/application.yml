@@ -1,0 +1,10 @@
+spring:
+  application.name: hexdddstudy
+  docker:
+    compose:
+      lifecycle-management: start_only
+
+decorator:
+  datasource:
+    p6spy:
+      enable-logging: true

@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application.name: hexdddstudy
+  jpa:
+    show-sql: false
+    hibernate:
+        ddl-auto: update
+  docker:
+    compose:
+      lifecycle-management: start_only
+
+decorator:
+  datasource:
+    p6spy:
+      enable-logging: true

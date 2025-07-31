@@ -1,0 +1,53 @@
+@startuml
+entity "Member" {
+  * id : Long <<PK>>
+  --
+  name : String
+  address_id : Long <<FK>>
+}
+
+entity "Address" {
+  * id : Long <<PK>>
+  --
+  city : String
+  street : String
+}
+
+entity "Author" {
+  * id : Long <<PK>>
+  --
+  name : String
+}
+
+entity "Book" {
+  * id : Long <<PK>>
+  --
+  title : String
+  author_id : Long <<FK>>
+}
+
+entity "Student" {
+  * id : Long <<PK>>
+  --
+  name : String
+}
+
+entity "Course" {
+  * id : Long <<PK>>
+  --
+  title : String
+}
+
+entity "student_course" {
+  * student_id : Long <<FK>>
+  * course_id : Long <<FK>>
+}
+
+Member ||--o{ Address : One-to-One
+Author ||--o{ Book : One-to-Many
+Book }o--|| Author : Many-to-One
+Student }o--o{ Course : Many-to-Many
+Student }|--o{ student_course
+Course }|--o{ student_course
+
+@enduml

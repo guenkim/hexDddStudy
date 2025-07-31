@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=hexstudy'
+      - 'MYSQL_PASSWORD=1234'
+      - 'MYSQL_ROOT_PASSWORD=1234'
+      - 'MYSQL_USER=geun'
+    ports:
+      - '3307:3306'
